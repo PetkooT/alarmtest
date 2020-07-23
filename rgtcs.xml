@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<config name="RGT1040">
+    <component name="RGTCS 1040">
+        <component name="Test">
+			<pv name="Tgt-RGT1040:Proc-AIT-191:MeasValue">
+			<description> warm turbine speed too high</description><latching>false</latching>
+			<guidance><title>[Default value]</title><details>Expression for default value: ST-31350A > 4075 Hz</details></guidance>
+			<guidance><title>[Operator Action]</title><details>Operator action: turbines general fault : DEFTURB</details></guidance>
+			<guidance><title>[Alarm restart description]</title><details>Alarm restart description: ST-31350A &lt;4050 Hz</details></guidance>
+			<guidance><title>[Possible Causes]</title><details>Possible causes: - Speed regulating valve CV31450 set improperly or blocked open in manual mode- Low pressure in the turbine brake (Failure No 5)</details></guidance>
+			<guidance><title>[Operator verification &amp; action]</title><details>Operator verification &amp; corrective action: - Check the sensor                            - Check CV-31450 is not blocked in manual mode- Check set point  and trends- Check the brake pressure </details></guidance>
+			<guidance><title>[Comments for operators]</title><details>Comments for operators: Check the sensor : optic fibber in front of neon, 50 or 100 hz on the converter.If not restart of the turbine, check for mechanical failure </details></guidance>
+			</pv>
+		
+        </component>
+    </component>
+</config>
